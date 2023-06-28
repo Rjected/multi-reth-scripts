@@ -1,0 +1,1 @@
+lighthouse beacon_node --network goerli --execution-endpoint http://127.0.0.1:8553 --port 8998 --execution-jwt /mnt/reth/goerli/jwt.hex --logfile /mnt/reth/goerli/logs/lighthouse.log

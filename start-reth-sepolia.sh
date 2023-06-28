@@ -1,0 +1,1 @@
+reth node --datadir /mnt/reth/sepolia --chain sepolia --http --http.api eth,admin,debug,net --http.port 8546 --metrics 172.17.0.1:9002 --discovery.port 40404 --port 40404 --authrpc.port 8552 --log.persistent --log.directory /mnt/reth/sepolia/logs --log.filter info,rpc=trace,rpc::engine=trace

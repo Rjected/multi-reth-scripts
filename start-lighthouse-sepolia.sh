@@ -1,0 +1,1 @@
+lighthouse beacon_node --network sepolia --execution-endpoint http://127.0.0.1:8552 --port 8999 --execution-jwt /mnt/reth/sepolia/jwt.hex --logfile /mnt/reth/sepolia/logs/lighthouse.log

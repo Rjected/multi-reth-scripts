@@ -1,0 +1,1 @@
+reth node --datadir /mnt/reth/mainnet --http --http.api eth,admin,debug,net --metrics 172.17.0.1:9001 --log.persistent --log.filter info,rpc=trace,rpc::engine=trace --log.directory /mnt/reth/mainnet/logs

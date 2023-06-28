@@ -1,0 +1,1 @@
+reth node --datadir /mnt/reth/goerli --chain goerli --http --http.api eth,admin,debug,net --http.port 8547 --metrics 172.17.0.1:9003 --discovery.port 50505 --port 50505 --authrpc.port 8553 --log.directory /mnt/reth/goerli/logs --log.persistent --log.filter info,rpc=trace,rpc::engine=trace

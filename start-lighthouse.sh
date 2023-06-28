@@ -1,0 +1,1 @@
+lighthouse beacon_node --execution-endpoint http://127.0.0.1:8551 --execution-jwt /mnt/reth/mainnet/jwt.hex --logfile /mnt/reth/mainnet/logs/lighthouse.log
